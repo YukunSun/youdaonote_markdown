@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>有道云笔记</title>
+  </head>
+  <body data-mode="edit">
+    <div class="ui-layout-north">
+      <span id="toolbar" class="noselect" data-open-title="Hide Toolbar" data-closed-title="Show Toolbar">
+        <i title="Bold" class="svg-icon svg-bold styling-icon" data-modifier="**">
+        </i>
+        <i title="Italic" class="svg-icon svg-italic styling-icon" data-modifier="*">
+        </i>
+        <i title="Strikethrough" class="svg-icon svg-strikethrough styling-icon" data-modifier="~~">
+        </i>
+        <i title="Insert" class="svg-icon svg-underline styling-icon" data-modifier="++">
+        </i>
+        <i title="Mark" class="svg-icon svg-pencil styling-icon" data-modifier="==">
+        </i>
+        <i class="dividor"></i>
+        <i title="Heading 1" class="svg-icon svg-heading1 heading-icon" data-level="1">
+        </i>
+        <i title="Heading 2" class="svg-icon svg-heading2 heading-icon" data-level="2">
+        </i>
+        <i title="Heading 3" class="svg-icon svg-heading3 heading-icon" data-level="3">
+        </i>
+        <i title="Heading 4" class="svg-icon svg-heading4 heading-icon" data-level="4">
+        </i>
+        <i title="Heading 5" class="svg-icon svg-heading5 heading-icon" data-level="5">
+        </i>
+        <i title="Heading 6" class="svg-icon svg-heading6 heading-icon" data-level="6">
+        </i>
+        <i class="dividor"></i>
+        <i title="Horizontal rule" class="svg-icon svg-hr" id="horizontal-rule">
+        </i>
+        <i title="Quote" class="svg-icon svg-quote list-icon" data-prefix="> ">
+        </i>
+        <i title="Unordered list" class="svg-icon svg-ul list-icon" data-prefix="- ">
+        </i>
+        <i title="Ordered list" class="svg-icon svg-ol list-icon" data-prefix="1. ">
+        </i>
+        <i title="Incomplete task list" class="svg-icon svg-unchecked list-icon" data-prefix="- [ ] ">
+        </i>
+        <i title="Complete task list" class="svg-icon svg-checked list-icon" data-prefix="- [x] ">
+        </i>
+        <i class="dividor"></i>
+        <i title="Link" class="svg-icon svg-link" id="link-icon" data-sample-text="link" data-sample-url="http://note.youdao.com/">
+        </i>
+        <i title="Image" class="svg-icon svg-image" id="image-icon" data-sample-text="image" data-sample-url="http://note.youdao.com/favicon.ico">
+        </i>
+        <i title="Code" class="svg-icon svg-code" id="code-icon">
+        </i>
+        <i title="Table" class="svg-icon svg-table" id="table-icon" data-sample="header 1 | header 2
+---|---
+row 1 col 1 | row 1 col 2
+row 2 col 1 | row 2 col 2">
+        </i>
+        <i class="dividor"></i>
+        <i title="Mathematical formula" class="svg-icon svg-formula" id="math-icon" data-sample="E = mc^2">
+        </i>
+        <i title="Flowchart" class="svg-icon svg-flow mermaid-icon" data-sample="graph LR
+A-->B">
+        </i>
+        <i title="Sequence diagram" class="svg-icon svg-seq mermaid-icon" data-sample="sequenceDiagram
+A->>B: How are you?
+B->>A: Great!">
+        </i>
+        <i title="Gantt diagram" class="svg-icon svg-gantt mermaid-icon" data-sample="gantt
+dateFormat YYYY-MM-DD
+section S1
+T1: 2014-01-01, 9d
+section S2
+T2: 2014-01-11, 9d
+section S3
+T3: 2014-01-02, 9d">
+        </i>
+        <a title="Help" class="help" href="http://note.youdao.com/iyoudao/?p=2411" target="_blank">
+          <i class="svg-icon svg-help"></i>
+        </a>
+      </span>
+    </div>
+    <div class="ui-layout-center">
+      <div id="editor"></div> <!-- 编辑器 -->
+    </div>
+    <div class="ui-layout-east">
+      <article class="markdown-body" id="preview" data-open-title="Hide Preview" data-closed-title="Show Preview"></article> <!-- 实时预览 -->
+    </div>
+    
+    <link rel="stylesheet" href="./css/markdown-plus-1a32417302.min.css"/>
+    <script src="./markdown-plus-f2d6461e7c.min.js" charset="utf-8"></script>
+    <script src="./index-52135f717a.js"></script>
+  </body>
+</html>
